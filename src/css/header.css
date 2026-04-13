@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  padding: 0px 20px;
+  padding: 10px 20px;
   position: fixed;
   top: 20px;
 }
@@ -18,11 +18,20 @@
 
 }
 
+.header-navigation-list {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+
+}
+
 .header-logo {
   color: #1B414B;
   font-size: 14px;
   letter-spacing: -0.03em;
 }
+
+
 
 .social-header-icon {
   fill: #1B414B;
@@ -57,23 +66,24 @@
   }
 
   .header-cont {
-    height: 48px;
+    height: 68px;
     padding: 0px 28px;
     max-width: 704px;
   }
 
   .header-logo {
     font-size: 20px;
+    padding-right: 30px;
   }
 
   .header-nav-social {
-    gap: 96px;
+    gap: 6px;
     display: flex;
   }
 
   .header-navigation-item {
     width: 91px;
-    height: 40px;
+    height: 30px;
     border-radius: 8px;
     background: #1B414B;
     justify-content: center;
@@ -132,6 +142,14 @@
   }
 
   .header-nav-social {
-    gap: 349px;
+
+    gap: 9px;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-left: 60px;
   }
 }

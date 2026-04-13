@@ -1,7 +1,7 @@
 .footer-section {
     min-width: 320px;
     max-width: 375px;
-    padding: 0px 10px;
+    padding: 16px 10px;
     background-color: #0E1823;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .footer-logo-nav {
-    display: flex;
+
     justify-content: space-between;
 }
 
@@ -24,7 +24,11 @@
 .footer-navigation-list {
     display: flex;
     gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
+
+
 
 .footer-a {
     font-size: 9px;
@@ -35,7 +39,7 @@
 
 .footer-navigation-item {
     display: flex;
-    width: 66px;
+    width: 80px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.30);
@@ -58,7 +62,16 @@
 }
 
 .footer-haslo {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 40px;
+}
+
+.footer-haslo1 {
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     padding-left: 8px;
@@ -101,7 +114,7 @@
 
     .footer-logo-nav {
         justify-content: start;
-        gap: 106px;
+        gap: 30px;
     }
 
     .footer-box-nav {
